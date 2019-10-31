@@ -1,0 +1,20 @@
+<h1>Welcome to admissions predictions</h1>
+<form method="POST">
+  {{ form.hidden_tag() }}
+  {{ form.gre_score.label }}{{ form.gre_score }}
+  <br>
+  {{ form.toefl_score.label }}{{ form.toefl_score }}
+  <br>
+  {{ form.university_rating.label }}{{ form.university_rating }}
+  <br>
+  {{ form.sop.label }}{{ form.sop }}
+  <br>
+  {{ form.lor.label }}{{ form.lor }}
+  <br>
+  {{ form.cgpa.label }}{{ form.cgpa }}
+  <br>
+  {{ form.research.label }}{{ form.research }}
+  <br>
+  {{ form.submit() }}
+
+</form>
